@@ -1,0 +1,2 @@
+Iter,batch size,learning rate,hidden size,train loss,valid loss,train acc,valid acc
+0,32,0.001,256,"tensor(0.0035, grad_fn=<NllLossBackward>)","tensor(0.0038, grad_fn=<NllLossBackward>)",0.7686170212765957,0.7672872340425532
