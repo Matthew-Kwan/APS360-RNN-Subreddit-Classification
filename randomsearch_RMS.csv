@@ -1,2 +1,7 @@
-Iter,batch size,learning rate,hidden size,train loss,valid loss,train acc,valid acc
-0,16,0.005,64,"tensor(0.3185, grad_fn=<NllLossBackward>)","tensor(0.0593, grad_fn=<NllLossBackward>)",0.9547872340425532,0.9481382978723404
+Iter,batch size,learning rate,hidden size,train loss,valid loss,train acc,valid acc,test_acc
+0,64,0.001,64,"tensor(0.7926, grad_fn=<NllLossBackward>)","tensor(1.1934, grad_fn=<NllLossBackward>)",0.7200520833216137,0.5873161764166069,0.5243055555100429
+1,16,0.001,32,"tensor(0.9182, grad_fn=<NllLossBackward>)","tensor(1.0598, grad_fn=<NllLossBackward>)",0.7156531531430792,0.5671296296033737,0.5390037593731671
+2,16,0.001,128,"tensor(0.2221, grad_fn=<NllLossBackward>)","tensor(1.9144, grad_fn=<NllLossBackward>)",0.9397522522390238,0.5587962962704262,0.5474624059893111
+3,8,0.005,64,"tensor(1.8386, grad_fn=<NllLossBackward>)","tensor(0.8914, grad_fn=<NllLossBackward>)",0.7968921892079636,0.5462328766889455,0.5320069203922143
+4,8,0.01,128,"tensor(0.5537, grad_fn=<NllLossBackward>)","tensor(1.4312, grad_fn=<NllLossBackward>)",0.6417766776589415,0.5102739725808958,0.5147058823306788
+5,8,0.001,256,"tensor(0.0591, grad_fn=<NllLossBackward>)","tensor(2.7500, grad_fn=<NllLossBackward>)",0.9623212321099791,0.5479452054559956,0.5298442906345223
